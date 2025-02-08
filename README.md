@@ -2,7 +2,7 @@
 
 An advanced E-commerce web application built with Django. This application includes robust features such as user authentication, product listing, shopping cart, order management, and payment integration.
 
-Features
+# Features
 User Registration and Authentication
 
 Comprehensive Product Management
@@ -13,7 +13,7 @@ Order Management System
 
 Payment Integration
 
-Installation
+# Installation
 Prerequisites
 Python 3.6+
 
@@ -21,7 +21,7 @@ Django 3+
 
 Virtual Environment (recommended)
 
-Setup Instructions
+# Setup Instructions
 Clone the Repository:
 
 bash
@@ -41,7 +41,9 @@ Run Migrations:
 bash
 python manage.py makemigrations
 python manage.py migrate
-Project Structure
+
+# Project Structure
+
 1. ecommerce_project/
 Description: The main project directory containing settings and configuration files.
 
@@ -152,7 +154,7 @@ class OrderItem(models.Model):
 
     def __str__(self):
         return f"{self.quantity} x {self.product.name}"
-Usage
+# Usage
 User Registration
 Navigate to /accounts/register/.
 
