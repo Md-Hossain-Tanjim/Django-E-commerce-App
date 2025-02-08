@@ -44,7 +44,7 @@ python manage.py migrate
 
 # Project Structure
 
-# 1. ecommerce_project/
+1. ecommerce_project/
 Description: The main project directory containing settings and configuration files.
 
 Key Files:
